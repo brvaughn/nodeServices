@@ -1,0 +1,19 @@
+{
+  "name": "node-chapter-service",
+  "version": "0.1.0",
+  "description": "Simple service to serve chapters from node-express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon" : "nodemon ./server.js"
+  },
+  "author": "BV",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+
+  }
+}
